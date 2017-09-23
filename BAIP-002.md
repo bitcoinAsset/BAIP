@@ -11,7 +11,9 @@
 
 Abstract
 --------
+
 Bitcoin Asset protocol is based on the Bitcoin protocol, this BAIP describes modifications to the Bitcoin protocol transaction structure.
+
 Motivation
 ----------
 Segregated Witness required Bitcoin to run softfork. On start a new Bitcoin Asset blockchain, we will apply changing the transaction structure.
