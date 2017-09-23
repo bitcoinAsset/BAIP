@@ -65,10 +65,11 @@ All standard transaction types defined by **scriptVersion**:
 
 For backward compatibility in future in case **scriptVersion** higher then known versions, transaction will not relayed, on execution script successfully passes the verification.
 
-== References ==
-*[[bip-0144.mediawiki|BIP141 Segregated Witness (Consensus layer)]]
+## References 
+https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki
 
-== Copyright ==
+
+## Copyright 
 
 This document is placed in the public domain.
 
