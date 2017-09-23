@@ -63,7 +63,7 @@ All standard transaction types defined by **scriptVersion**:
 |3 | 32 bytes Script SHA256 hash |  replaced with P2SH script on verification |
 |4 | up to 80 bytes message | only 1 output per transaction allowed |
 
-In case **scriptVersion** higher then known versions, transaction will not relayed, on execution script successfully passes the verification.
+For backward compatibility in future in case **scriptVersion** higher then known versions, transaction will not relayed, on execution script successfully passes the verification.
 
 
 
