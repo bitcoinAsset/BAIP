@@ -33,7 +33,7 @@ New transaction txid serialization format:
 
 _`txid = SHA256 ( [nVersion] [[inputPoint] [sequence]] [txouts] [nLockTime] )`_
 
-[signatureScript] excludes from serialization
+[signatureScript] excluded from serialization
 
 A new wtxid is defined as old txid format:
 
