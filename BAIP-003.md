@@ -21,13 +21,13 @@ Specification
 -------------
 A new standard script corresponds to transaction output script version 2 and 3:
 
-`OP_HASH160 [20-byte-hash-value] OP_EQUAL`  [2]
+_`OP_HASH160 [20-byte-hash-value] OP_EQUAL`_  [2]
 
 [20-byte-hash-value] shall be the push-20-bytes-onto-the-stack opcode (0x14) followed by exactly 32 bytes. Hash value calculated first with RIPEMD-160.
 
 
 
-`OP_HASH256 [32-byte-hash-value] OP_EQUAL` [3]
+_`OP_HASH256 [32-byte-hash-value] OP_EQUAL`_ [3]
 
 [32-byte-hash-value] shall be the push-32-bytes-onto-the-stack opcode (0x14) followed by exactly 20 bytes. Hash value calculated  with SHA-256.
 
